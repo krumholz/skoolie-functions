@@ -7,5 +7,4 @@ import * as functions from "firebase-functions";
 
 admin.initializeApp(functions.config().firebase);
 
-export { shareLocationToTrusted } from './firestore/automatic_sharing';
-
+export { shareLocationToTrusted } from './firestore/automaticSharing';
